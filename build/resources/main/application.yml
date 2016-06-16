@@ -1,0 +1,43 @@
+application :
+    name : Aboutme
+    version : v1
+
+server :
+    port : 8080
+
+mongodbProvider :
+    mongodbUrl : '@ds037175.mlab.com:37175/sharebooksapplication'
+
+mailgunProvider :
+    mailgunBaseUrl : 'https://api.mailgun.net/v3/'
+    mailgunDomain: 'sandbox45000b2ea7c241d7a1bc2e454e163f82.mailgun.org'
+
+---
+
+spring :
+    profiles : dev
+
+server :
+    port : 8888
+
+mongodbProvider :
+    mongodbUrl : '@ds037175.mlab.com:37175/sharebooksapplication'
+
+mailgunProvider :
+    mailgunBaseUrl : 'https://api.mailgun.net/v3/'
+    mailgunDomain: 'sandbox45000b2ea7c241d7a1bc2e454e163f82.mailgun.org'
+
+---
+
+spring :
+    profiles : ci
+
+server :
+    port : 8170
+
+mongodbProvider :
+    mongodbUrl : '@ds037175.mlab.com:37175/sharebooksapplication'
+
+mailgunProvider :
+    mailgunBaseUrl : 'https://api.mailgun.net/v3/'
+    mailgunDomain: 'sandbox45000b2ea7c241d7a1bc2e454e163f82.mailgun.org'

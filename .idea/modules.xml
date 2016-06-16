@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aboutmebackend.iml" filepath="$PROJECT_DIR$/.idea/modules/aboutmebackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aboutmebackend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aboutmebackend_main.iml" group="aboutmebackend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aboutmebackend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aboutmebackend_test.iml" group="aboutmebackend" />
+    </modules>
+  </component>
+</project>
